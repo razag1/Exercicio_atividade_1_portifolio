@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FAF7EC;
+}
+
+header,
+section h2,
+section h3,
+form-button{
+    font-family: 'Patua One', Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+body, input, textarea {
+    font-family: 'Work Sans', 'sans-serif';
+}
+
+header {
+    align-content: center;
+    background-color: #0145A2;
+    color:#FAF7EC;
+    height: 5em;
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+
+header nav li{
+    display: inline;
+    padding-left: 16px;
+    font-size: 1.3em;
+}
+
+header nav li a {
+    text-decoration: none;
+    color: #FAF7EC;
+}
+
+.sobre{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sobre .avatar img {
+    height: 40em;    
+    padding: 2em;
+}
+.sobre .avatar {
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    height: 100%;
+
+}
+
+.sobre h2,
+.experiencias h2,
+#contact h2 {
+    color: #0145A2;
+    font-size: 2em;
+    text-indent: 0.5em;
+    margin-left: 1.5em;
+}
+
+.sobre p,
+.experiencias p {
+    font-size: 1.3em;
+    text-indent: 1.5em;
+    margin: 1.5em;
+    text-align: justify;
+}
+
+.social-links{
+    padding-left: 40%;
+}
+
+.social-links img {
+    height: 2em;
+}
+
+.social-links li{
+    display: inline;
+}
+
+.social-links li a{
+    text-decoration: none;
+}
+
+#contact .container{
+    display: block;
+}
+
+.contact-metodos {
+    display: flex;
+}
+
+.email {
+    padding-left: 4em;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+section h3{
+    margin-bottom: 16px;
+}
+
+form button{
+    background-color:#0145A2;
+    color:#FAF7EC;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover{
+    background-color: #085ace;
+}
+
+input:focus, textarea:focus {
+    outline-color:#0145A2;
+}
+
+footer {
+    background-color:#0145A2;
+    color: aliceblue;
+    padding: 16px 0;
+}
